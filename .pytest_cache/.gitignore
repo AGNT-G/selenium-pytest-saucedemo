@@ -1,0 +1,28 @@
+# Carpetas de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos temporales
+*.swp
+*.swo
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de pytest
+.cache/
+.pytest_cache/
+
+# Configs de IDEs
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

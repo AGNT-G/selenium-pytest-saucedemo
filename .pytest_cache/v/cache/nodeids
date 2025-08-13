@@ -1,0 +1,7 @@
+[
+  "test_inputs_pytest.py::test_input_negative_number",
+  "test_inputs_pytest.py::test_input_positive_number",
+  "tests/test_login_and_purchase.py::test_login_and_purchase",
+  "tests/test_practice_error.py::test_practice_error",
+  "tests/test_practice_error.py::test_valid_email_not_red_border"
+]
