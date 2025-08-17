@@ -21,28 +21,28 @@ The goal is to practice building automation frameworks following industry best p
    ```bash
    git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
 
-   Navigate to the project folder:
+## Navigate to the project folder:
 
 cd REPO-NAME
 
 
-Install dependencies:
+## Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run tests with Pytest:
+## Run tests with Pytest:
 
 pytest -v --html=report.html
 
-Example Test Flow
+## Example Test Flow
 
 Open the login page.
 
-Enter valid/invalid credentials.
+## Enter valid/invalid credentials.
 
 Validate success or error messages.
 
-Verify page redirection and UI elements.
+## Verify page redirection and UI elements.
 
 This project demonstrates best practices in test automation with Python + Selenium, using a maintainable structure and reusable components.
