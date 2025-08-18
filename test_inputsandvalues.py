@@ -25,8 +25,6 @@ time.sleep(2)
 test_inputs_andvalues = InputsAndValues(driver)
 # Interactúa con el campo de entrada
 input_element = test_inputs_andvalues.enter_value("12345")
-# Limpia el campo antes de ingresar un nuevo valor
-input_element.clear() 
 # Ingresa un valor en el campo de entrada
 test_inputs_andvalues.enter_value("67890")
 # Obtiene el valor del campo de entrada
