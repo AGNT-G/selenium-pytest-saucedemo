@@ -19,7 +19,7 @@ The goal is to practice building automation frameworks following industry best p
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AGNT-G/REPO-NAME.git
+   git clone https://github.com/AGNT-G/selenium-pytest-saucedemo.git
 
 ## Navigate to the project folder:
 
