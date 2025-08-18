@@ -1,6 +1,9 @@
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
+
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 
@@ -22,7 +25,9 @@ login_button = driver.find_element(By.XPATH, '//*[@id="login"]/button')
 username.send_keys("tomsmith")
 password.send_keys("SuperSecretPassword!")
 login_button.click()
-success_message = driver.find_element(By.XPATH, '//*[@id="flash"]')
+success_message = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.XPATH, '//*[@id="flash"]'))
+)
 # Espera un momento para que se procese el inicio de sesión
 if "You logged into a secure area!" in success_message.text:
     print("Inicio de sesión exitoso")
