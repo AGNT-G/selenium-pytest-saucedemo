@@ -23,7 +23,7 @@ The goal is to practice building automation frameworks following industry best p
 
 ## Navigate to the project folder:
 
-cd REPO-NAME
+cd selenium-pytest-saucedemo
 
 
 ## Install dependencies:
